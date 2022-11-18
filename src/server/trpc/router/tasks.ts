@@ -1,7 +1,7 @@
 import { router, protectedProcedure } from "./../trpc"
 import { z } from "zod"
 
-export const tasksRouter = router({
+export const taskRouter = router({
 
   all: protectedProcedure
     .input(

@@ -2,12 +2,12 @@
 import { router } from "../trpc"
 import { exampleRouter } from "./example"
 import { authRouter } from "./auth"
-import { tasksRouter } from "./tasks"
+import { taskRouter } from "./tasks"
 
 export const appRouter = router({
   example: exampleRouter,
   auth: authRouter,
-  tasks: tasksRouter,
+  tasks: taskRouter,
 })
 
 // export type definition of API
